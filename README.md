@@ -3,7 +3,9 @@
 ## Overview
 
 Track: Tools
+
 Team:
+
 We are a team of two high school juniors from California attending Dublin High School, and we are both part of our school’s engineering academy. We’ve always had a passion for computer science and have some experience with web development. However, the field of artificial intelligence is largely new territory for us. This project is our way of exploring the field and learning how machine learning models work while also applying some of the skills that we already know.
 
 ## Goals of the project
