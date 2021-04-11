@@ -75,3 +75,34 @@ Some issues we encountered were that the AI sometimes didn’t work as intended 
 The main bug or unintended feature we currently have is that the harder versions of the text often contain false information. To enhance the text, the AI uses not only the original, but also other sources from all over the internet. This means that sometimes it adds in details that are not supported by the original text and are often not true which is a problem for people looking for accurate news or information. However, our project is still useful for entertainment or fiction pieces where added details can make a text more appealing and interesting to read.
 
 Future work that has to be done to make the tool better is to train the model on more data to perfect the way it generates the texts. We would also like to fix the issue of the AI giving out false information by filtering it out or limiting the scope of it’s reach so it doesn’t add too many things outside the text. We could also add more difficulty levels than just easy and hard to make the adaptations more flexible and thus appeal to a larger audience. Another feature that might be cool to have is to track how difficult the original text was by tracking how many changes were made to turn it into the easier and harder versions. So if there were barely any changes made to make it harder and a lot to make it easier, it can be inferred that the original text was already challenging.
+
+## Configuration
+
+To start the server:
+
+```sh
+$ cd server
+$ python server.py
+```
+
+Note: You’ll need the trained model checkpoint saved. We haven’t uploaded it here because it is too large (~1.5GB).
+
+To start the client dev server:
+
+```sh
+$ cd client
+$ npm run dev
+```
+
+To see how we trained our model, check out the notebook file located within the `model` folder. When rendered, it looks like this:
+
+![Notebook](https://github.com/kbrsh/colex/raw/master/images/notebook-1.png)
+![Notebook](https://github.com/kbrsh/colex/raw/master/images/notebook-2.png)
+![Notebook](https://github.com/kbrsh/colex/raw/master/images/notebook-3.png)
+
+
+## Examples
+
+![Demo 1](https://github.com/kbrsh/colex/raw/master/images/demo-1.jpg)
+![Demo 2](https://github.com/kbrsh/colex/raw/master/images/demo-2.jpg)
+![Demo 3](https://github.com/kbrsh/colex/raw/master/images/demo-3.jpg)
