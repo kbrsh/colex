@@ -1,0 +1,100 @@
+main {
+  max-width: 1400px;
+  width: 100%;
+  margin: 50px auto;
+  font-family: "Crimson Pro", serif;
+  font-size: 16px;
+}
+
+h1 {
+  font-family: "Trajan";
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 400;
+}
+
+.bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bar > p {
+  margin: 0;
+  width: 150px;
+}
+
+.bar > p:nth-of-type(2) {
+  text-align: center;
+}
+
+.bar > p:last-of-type {
+  text-align: right;
+}
+
+.headline {
+  font-family: "Crimson Pro";
+  font-weight: 400;
+  font-size: 60px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content > div {
+  width: 450px;
+  height: 500px;
+}
+
+.content > div > * {
+  text-align: justify;
+  margin: 0;
+}
+
+.content > div > h3 {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.textarea-container {
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.textarea-container > textarea {
+  font-family: "Crimson Pro";
+  border: none;
+  font-size: 16px;
+  resize: none;
+  overflow: hidden;
+  height: 100%;
+}
+
+.textarea-container > textarea:focus {
+  outline: none;
+}
+
+.textarea-container > button {
+  margin-top: auto;
+  font-family: "Crimson Pro";
+  border: 1px solid #000000;
+  font-size: 16px;
+  background: none;
+  width: 100%;
+  text-align: center;
+  height: 30px;
+}
+
+@font-face {
+	font-family: "Trajan";
+	src: url("./fonts/Trajan-Pro-Regular.ttf") format("truetype");
+	font-weight: 400;
+}

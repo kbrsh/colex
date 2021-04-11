@@ -1,0 +1,18 @@
+{
+  "name": "esbuild-reactjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esbuild": "^0.5.14",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "static-here": "^1.0.0"
+  }
+}
